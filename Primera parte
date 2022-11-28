@@ -1,0 +1,16 @@
+public class Main {
+
+    public static void main( String[] args ) {
+        suma(10, 20, 30);
+        
+    }
+
+    public static int suma(int a, int b, int c) {
+        int resultado;
+        resultado = a + b +c;
+
+        System.out.println("La suma de a, b y c es:" +resultado);
+        return resultado;
+       
+    }
+}
